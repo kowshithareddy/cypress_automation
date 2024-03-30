@@ -6,7 +6,7 @@ class login{
     }
     userName(){ // camelcase    
 
-        return cy.get('input#username ')
+        return cy.get('input#username ')    
     }
     password(){ // camelcase    
 
@@ -24,6 +24,13 @@ class login{
 
         return  cy.get('div.wp-block-button')
     }
-
+// method
+    login(){
+        this.userName().type("")
+        this.userName().type("")
+        this.userName().type("")
+        this.userName().type("")
+        this.userName().type("")
+    }
 }
 export default login;    

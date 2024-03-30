@@ -52,7 +52,7 @@
       "validPassword": [
         {
           "password": "Test123#",
-          "confirmPassword": "Test123#"
+          "confirmPassword": " "
         }
       ],
       "invalidPassword": [

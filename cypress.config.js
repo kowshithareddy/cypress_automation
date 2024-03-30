@@ -15,5 +15,5 @@ module.exports = defineConfig({
       
     },
   },
-  "retries": {"openMode":2, "runMode": 0},
+  // "retries": {"openMode":2, "runMode": 0},
 });
